@@ -6,14 +6,15 @@
 //  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
 
-#include <iostream>
 #include "___FILEBASENAME___.h"
-
-using namespace cocos2d;
 
 bool ___VARIABLE_productName:identifier___::init()
 {
 	//config your layer
+	if (!CCLayer::init())
+    {
+        return false;
+    }
 	
 	return true;
 }

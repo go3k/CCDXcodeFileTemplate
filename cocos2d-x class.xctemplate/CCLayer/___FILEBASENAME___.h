@@ -10,15 +10,16 @@
 #define ___PROJECTNAME_______FILEBASENAMEASIDENTIFIER____h
 
 #include "cocos2d.h"
+USING_NS_CC;
 
-class ___VARIABLE_productName:identifier___ : public cocos2d::CCLayer
+class ___VARIABLE_productName:identifier___ : public CCLayer
 {
 public:
     virtual bool init();
     
-    static cocos2d::CCScene* scene();
+    static CCScene* scene();
     
-    LAYER_CREATE_FUNC(___VARIABLE_productName:identifier___);
+    CREATE_FUNC(___VARIABLE_productName:identifier___);
 
 };
 

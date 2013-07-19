@@ -8,8 +8,6 @@
 
 #include "___FILEBASENAME___.h"
 
-using namespace cocos2d;
-
 bool ___VARIABLE_productName:identifier___::init()
 {
 	return true;
