@@ -11,7 +11,9 @@
 
 #include "cocos2d.h"
 
-class ___VARIABLE_productName:identifier___ : public cocos2d::CCObject
+USING_NS_CC;
+
+class ___VARIABLE_productName:identifier___ : public CCObject
 {
 public:
 	~___VARIABLE_productName:identifier___();

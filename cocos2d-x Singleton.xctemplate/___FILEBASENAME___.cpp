@@ -8,8 +8,6 @@
 
 #include "___FILEBASENAME___.h"
 
-using namespace cocos2d;
-
 ___VARIABLE_productName:identifier___* ___VARIABLE_productName:identifier___::instance = NULL;
 
 ___VARIABLE_productName:identifier___& ___VARIABLE_productName:identifier___::sharedInstance()
