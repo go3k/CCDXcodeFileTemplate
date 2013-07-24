@@ -15,7 +15,6 @@ USING_NS_CC;
 
 class ___VARIABLE_productName:identifier___ : public ___VARIABLE_parentClass:identifier___
 {
-
 public:
 	bool init();
 
